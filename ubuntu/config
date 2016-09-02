@@ -1,0 +1,33 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+[keybindings]
+  search = <Alt>f
+  resize_right = <Alt>l
+  paste = <Alt>v
+  resize_up = <Alt>k
+  resize_left = <Alt>h
+  split_horiz = <Alt>o
+  go_prev = <Shift><Alt>w
+  split_vert = <Alt>e
+  go_next = <Alt>w
+  copy = <Alt>c
+  resize_down = <Alt>j
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = Ubuntu Mono 13
+    background_image = None
+    foreground_color = "#ffffff"
+    login_shell = True
+    copy_on_selection = True
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

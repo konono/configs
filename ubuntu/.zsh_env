@@ -1,0 +1,2 @@
+eval $(dircolors -b ~/.dirc)
+xinput set-prop 10 "Device Enabled" 0

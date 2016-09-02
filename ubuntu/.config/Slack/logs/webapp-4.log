@@ -1,0 +1,32 @@
+2016-09-02T04:53:27.455Z - info: UPDATE_SEARCH_BOX_SIZE : {
+  "newSize": {
+    "width": 297
+  }
+}
+2016-09-02T04:53:28.957Z - info: UPDATE_TEAM_THEME : {
+  "theme": {
+    "column_bg": "#4D394B",
+    "menu_bg": "#3E313C",
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "hover_item": "#3E313C",
+    "text_color": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C"
+  },
+  "teamId": "T276BURB6"
+}
+2016-09-02T04:53:29.497Z - info: UPDATE_UNREADS_INFO : {
+  "unreads": 0,
+  "unreadHighlights": 0,
+  "showBullet": true,
+  "teamId": "T276BURB6"
+}
+2016-09-02T04:53:29.659Z - info: UPDATE_TEAM_ICONS : {
+  "icons": false,
+  "teamId": "T276BURB6"
+}
+2016-09-02T04:53:32.945Z - info: Failed to get messages from webapp: Failed to fetch recent messages
+2016-09-02T04:53:34.276Z - info: Unloading spellchecker
+2016-09-02T04:53:35.858Z - info: Unloading spellchecker
+2016-09-02T04:53:41.247Z - info: Failed to get messages from webapp: Failed to fetch recent messages
