@@ -1,0 +1,141 @@
+### Install common packages ###
+sudo apt-get install -y git-core
+sudo apt-get install gdebi
+sudo add-apt-repository ppa:mati75/spacefm
+sudo apt-get update
+sudo apt-get install spacefm
+
+### Install ibus-mozc###
+sudo apt-get install ibus-mozc
+killall ibus-daemon
+bus-setup 
+
+### Install zsh ###
+sudo apt-get install zsh
+
+### Install oh-my-zsh###
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+### Install copyq ###
+wget https://github.com/hluk/CopyQ/releases/download/v2.7.1/copyq_2.7.1_Ubuntu_16.04_amd64.deb
+sudo gdebi copyq_2.7.1_Ubuntu_16.04_amd64.deb
+
+### Install vim ###
+sudo apt-get install -y paco curl libncurses5-dev luajit libluajit-5.1-dev liblua5.1-dev python3-dev xorg-dev libgtk2.0-dev
+cd /usr/local/src
+sudo wget https://github.com/vim-jp/vim/archive/v0.0.002.tar.gz
+sudo tar zxvf v0.0.002.tar.gz
+cd vim-0.0.002
+sudo ./configure --with-gnome --enable-multibyte --enable-gui=auto --enable-python3interp --enable-luainterp --with-luajit --enable-perlinterp --enable-mzschemeinterp --enable-gpm --enable-cscope --enable-fontset 
+make
+sudo paco -lD "make install"
+
+### Install vim color theme ###
+git clone https://github.com/muellan/am-colors
+cp -a am-colors/colors ~/.vim/
+
+### Install NeoBundle ###
+curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
+chmod +x install.sh
+./install.sh
+start vim
+:NeoBundleInstall
+
+### Install ansible ###
+sudo apt install ansible
+
+### Install subnetcalc ###
+sudo apt-get install subnetcalc
+
+### Install pip3 ###
+sudo apt-get install python3-setuptools
+
+### Install Glide ###
+curl https://glide.sh/get | sh
+
+### Install Golang ###
+wget https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz
+mv go1.7.1.linux-amd64.tar.gz /usr/local/
+sudo mv go1.7.1.linux-amd64.tar.gz /usr/local/
+sudo tar zxvf go1.7.1.linux-amd64.tar.gz
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+### Install tmux ###
+sudo apt-get install tmux
+cat << EOF > ~/.tmux.conf.bak
+# change prefix key to C-j
+unbind C-b
+set -g prefix C-j
+
+#UTF8対応
+setw -g utf8 on
+set-window-option -g utf8 on
+set -g status-utf8 on
+
+# fix Esc key delay time for Vim
+set -sg escape-time 0
+
+# ウィンドウ分割後もカレントディレクトリに留まる
+if-shell "~/dotfiles/bin/tmux-version-check 1.9" '\
+    bind c new-window -c "#{pane_current_path}";\
+    bind | split-window -h -c "#{pane_current_path}";\
+    bind - split-window -v -c "#{pane_current_path}";\
+'
+
+# ウィンドウを閉じた時に番号を詰める
+set-option -g renumber-windows on
+
+
+## viのキーバインドを使用する
+setw -g mode-keys vi
+
+## コピーモードの操作をvim風に設定する
+bind-key -t vi-copy C-v begin-selection
+bind-key -t vi-copy y copy-pipe "reattach-to-user-namespace pbcopy"
+
+## copy to clipboard
+### for Linux
+if-shell "which xsel" '\
+  bind-key -t vi-copy y copy-pipe "xsel -ib"; \
+  bind-key -t vi-copy Enter copy-pipe "xsel -ib"; \
+'
+
+# Vimのキーバインドでペインを移動する
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+bind -r C-h select-window -t :-
+bind -r C-l select-window -t :+
+
+# Vimのキーバインドでペインをリサイズする
+bind -r H resize-pane -L 5
+bind -r J resize-pane -D 5
+bind -r K resize-pane -U 5
+bind -r L resize-pane -R 5
+# ===== logging =====
+#
+# C-j C-p Start logging.
+bind-key C-p pipe-pane -o '/bin/sh -c "while read -r LINE; do echo \" \${LINE}\" >> \${HOME}/.tmux/log/\$(date +%Y%m%d-%H%M%S)-#S-#I.#P.log; done "' \; display-message "Logging start."
+# C-j C-o Stop logging
+bind-key C-o pipe-pane \; display-message "Logging end."
+# C-j v Open new window. Logging always. (-n is set window name.)
+bind-key v new-window -n 'logging...' \; pipe-pane -o '/bin/sh -c "while read -r LINE; do echo \"[\$(date +\"%%Y_%%m%%d_%%H%%M%%S_%%N\")] \${LINE}\" >> \${HOME}/.tmux/log/\$(date +%Y%m%d-%H%M%S)-#S-#I.#P.log; done "'
+
+#powerline
+set-option -g default-terminal screen-256color
+set -g terminal-overrides 'xterm:colors=256'
+EOF
+
+#clipboard releation
+sudo apt-get install xsel
+
+#tmux rapper
+sudo apt install tmuxinator
+
+vim ~/.zsh_env
+export EDITOR='vim'
+export SHELL='zsh'
