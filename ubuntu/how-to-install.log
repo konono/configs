@@ -210,7 +210,7 @@ EOF
 
 cat conf.d/lab-mgmt01.conf 
 Host lab-mgmt
-    HostName 175.111.74.174
+    HostName xxx.xxx.xxx.xxx
     User ubuntu
     Port 22
     IdentityFile ~/.ssh/keys/lab-mgmt01
