@@ -115,7 +115,8 @@ set hlsearch            " 検索マッチテキストをハイライト (2013-07
 
 " color config {{{
 "カラーテーマ
-colorscheme foursee
+set background=dark
+colorscheme amcolors
 "colorscheme phd
 :set t_Co=256
 
@@ -214,8 +215,6 @@ NeoBundle 'kana/vim-submode'
 
 "go
 NeoBundle 'fatih/vim-go'
-NeoBundle 'vim-jp/vim-go-extra'
-NeoBundle 'nsf/gocode'
 
 "teble作成を簡単に
 NeoBundle 'dhruvasagar/vim-table-mode'
@@ -288,6 +287,13 @@ inoremap <expr><S-TAB>  pumvisible() ? "\<C-p>" : "\<S-TAB>"
 
 " 補完候補が出ていたら確定、なければ改行
 inoremap <expr><CR>  pumvisible() ? neocomplete#close_popup() : "<CR>"
+
+" C-Kで展開
+" Neocomplete-snippets
+"let g:neocomplete_snippets_dir='$HOME/.vim/snippets'
+"imap <C-k> <Plug> (neocomplete_snippets_expand)
+"smap <C-k> <Plug> (neocomplete_snippets_expand)
+
 
 " 補完をキャンセルしpopupを閉じる
 inoremap <expr><C-e> neocomplete#cancel_popup()
@@ -561,7 +567,10 @@ let g:neocomplete#sources#omni#function = {'go': 'go#complete#Complete'}
 
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
 
 " }}}
 

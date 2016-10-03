@@ -1,2 +1,11 @@
 eval $(dircolors -b ~/.dirc)
 xinput set-prop 10 "Device Enabled" 0
+
+###! configure enviroment !###
+export LANG=ja_JP.utf8
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export EDITOR='vim'
+export SHELL='zsh'
+

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/kono/Downloads/setuplog_1510_20160203.log" added="2016-09-25T08:17:34Z" modified="2016-10-01T15:34:58Z" visited="2016-09-25T08:17:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-09-25T08:17:34Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-10-01T15:34:58Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/mozc_keymap.txt" added="2016-10-01T14:03:08Z" modified="2016-10-01T14:03:08Z" visited="2016-10-01T14:03:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="mozc_tool" exec="&apos;mozc_tool %u&apos;" modified="2016-10-01T14:03:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/gitrepo/fonts/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline.ttf" added="2016-10-01T15:32:58Z" modified="2016-10-01T15:32:58Z" visited="2016-10-01T15:32:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-font-ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2016-10-01T15:32:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/copyq_2.4.3_Debian_7.0_amd64.deb" added="2016-10-01T19:09:17Z" modified="2016-10-01T19:09:42Z" visited="2016-10-01T19:09:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T19:09:17Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;gnome-software --local-filename=%f&apos;" modified="2016-10-01T19:09:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/gitrepo/fonts/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline%20Bold.ttf" added="2016-10-01T19:09:24Z" modified="2016-10-01T19:09:24Z" visited="2016-10-01T19:09:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-font-ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2016-10-01T19:09:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/gitrepo/fonts/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline%20Bold%20Italic.ttf" added="2016-10-01T19:09:26Z" modified="2016-10-01T19:09:26Z" visited="2016-10-01T19:09:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-font-ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2016-10-01T19:09:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/gitrepo/fonts/UbuntuMono/Ubuntu%20Mono%20derivative%20Powerline%20Italic.ttf" added="2016-10-01T19:09:30Z" modified="2016-10-01T19:09:30Z" visited="2016-10-01T19:09:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-font-ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2016-10-01T19:09:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/copyq_2.6.1_Ubuntu_15.10_amd64.deb" added="2016-10-01T19:14:14Z" modified="2016-10-01T19:14:14Z" visited="2016-10-01T19:14:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T19:14:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/gitrepo/configs/ubuntu/copyq-shotrcut-command" added="2016-10-01T19:40:40Z" modified="2016-10-01T19:40:40Z" visited="2016-10-01T19:40:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="copyq" exec="&apos;copyq %u&apos;" modified="2016-10-01T19:40:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/gitrepo/configs/ubuntu/how-to-install.log" added="2016-10-01T19:54:02Z" modified="2016-10-01T19:54:02Z" visited="2016-10-01T19:54:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:applications>
+          <bookmark:application name="Vim" exec="&apos;gvim %u&apos;" modified="2016-10-01T19:54:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E3%80%8CLast%20Smile%E3%80%8D.m4a" added="2016-10-01T21:04:29Z" modified="2016-10-01T21:04:29Z" visited="2016-10-01T21:04:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:04:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E3%80%8C%E7%84%A1%E6%95%B5%E3%81%AESoldier%E3%80%8D.mp3" added="2016-10-01T21:05:37Z" modified="2016-10-01T21:05:37Z" visited="2016-10-01T21:05:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:05:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E3%80%8C%E7%84%A1%E6%95%B5%E3%81%AESoldier%E3%80%8D.m4a" added="2016-10-01T21:06:19Z" modified="2016-10-01T21:06:19Z" visited="2016-10-01T21:06:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:06:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E3%80%8C%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%8B%E3%82%89%E3%80%8D.m4a" added="2016-10-01T21:06:58Z" modified="2016-10-01T21:20:20Z" visited="2016-10-01T21:06:58Z">
+    <title>麻枝 准×やなぎなぎ 「終わりの世界から」.m4a</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:06:58Z" count="1"/>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2016-10-01T21:20:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E3%80%8CKiller%20Song%E3%80%8D.m4a" added="2016-10-01T21:08:42Z" modified="2016-10-01T21:08:42Z" visited="2016-10-01T21:08:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:08:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E3%80%8C%E7%81%AB%E5%90%B9%E3%81%8D%E5%B1%B1%E3%81%AE%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%80%8D%E3%80%90%E4%B8%AD%E6%96%87%E5%AD%97%E5%B9%95%E3%80%91.m4a" added="2016-10-01T21:11:23Z" modified="2016-10-01T21:11:23Z" visited="2016-10-01T21:11:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:11:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-02.%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A0%E3%81%91%E3%81%AEArk.flv.m4a" added="2016-10-01T21:13:21Z" modified="2016-10-01T21:13:21Z" visited="2016-10-01T21:13:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:13:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-04.Flower%20Garden.flv.m4a" added="2016-10-01T21:14:34Z" modified="2016-10-01T21:14:34Z" visited="2016-10-01T21:14:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:14:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-06.%E5%87%8D%E3%82%8B%E5%A4%A2%20.flv.m4a" added="2016-10-01T21:15:29Z" modified="2016-10-01T21:15:29Z" visited="2016-10-01T21:15:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:15:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-07.Executioner%E3%81%AE%E6%81%8B.flv.m4a" added="2016-10-01T21:16:23Z" modified="2016-10-01T21:16:23Z" visited="2016-10-01T21:16:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:16:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-08.%E3%81%A8%E3%81%82%E3%82%8B%E6%B5%B7%E8%B3%8A%E7%8E%8B%E3%81%AE%E6%B0%97%E3%81%BE%E3%81%90%E3%82%8C.flv.m4a" added="2016-10-01T21:16:59Z" modified="2016-10-01T21:16:59Z" visited="2016-10-01T21:17:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:16:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-09.%E9%9B%AA%E3%81%AE%E9%99%8D%E3%82%89%E3%81%AA%E3%81%84%E6%98%9F.flv.m4a" added="2016-10-01T21:17:31Z" modified="2016-10-01T21:17:31Z" visited="2016-10-01T21:17:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:17:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-12.Hero%E3%81%AE%E6%9D%A1%E4%BB%B6.flv.m4a" added="2016-10-01T21:18:22Z" modified="2016-10-01T21:18:22Z" visited="2016-10-01T21:18:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:18:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-13.%E3%81%93%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AEBirthday%20Song.flv.m4a" added="2016-10-01T21:20:39Z" modified="2016-10-01T21:20:39Z" visited="2016-10-01T21:20:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:20:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/copyq_2.7.1_Ubuntu_16.04_amd64.deb" added="2016-10-01T21:22:24Z" modified="2016-10-01T21:22:24Z" visited="2016-10-01T21:22:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-01T21:22:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/go1.7.1.linux-amd64.tar.gz" added="2016-10-02T07:54:32Z" modified="2016-10-02T07:54:32Z" visited="2016-10-02T07:54:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-02T07:54:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_kono0/get" added="2016-10-02T10:25:45Z" modified="2016-10-02T10:25:45Z" visited="2016-10-02T10:25:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-02T10:25:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/glide-v0.12.2-linux-amd64.tar.gz" added="2016-10-02T10:39:07Z" modified="2016-10-02T11:14:20Z" visited="2016-10-02T10:39:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-02T10:39:07Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-10-02T11:14:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Music/%E9%BA%BB%E6%9E%9D%20%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E6%83%91%E6%98%9F%E3%81%AELove%20Song-02.%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A0%E3%81%91%E3%81%AEArk.flv.m4a" added="2016-10-02T13:27:04Z" modified="2016-10-02T13:27:04Z" visited="2016-10-02T13:27:05Z">
+    <title>麻枝 准xやなぎなぎ 終わりの惑星のLove Song-02.ふたりだけのArk.flv.m4a</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2016-10-02T13:27:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Music/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%20%E3%80%8C%E7%B5%82%E3%82%8F%E3%82%8A%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%8B%E3%82%89%E3%80%8D.m4a" added="2016-10-02T15:08:43Z" modified="2016-10-02T15:08:43Z" visited="2016-10-02T15:08:44Z">
+    <title>麻枝 准×やなぎなぎ 「終わりの世界から」.m4a</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2016-10-02T15:08:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Documents/blog/20161002.txt" added="2016-10-02T15:16:07Z" modified="2016-10-02T15:16:07Z" visited="2016-10-02T15:16:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Vim" exec="&apos;gvim %u&apos;" modified="2016-10-02T15:16:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/gitkraken-amd64.deb" added="2016-10-03T04:33:22Z" modified="2016-10-03T04:33:22Z" visited="2016-10-03T04:33:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-03T04:33:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Music/%E9%BA%BB%E6%9E%9D%20%E5%87%86%C3%97%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%E3%80%8CLast%20Smile%E3%80%8D.m4a" added="2016-10-03T05:08:44Z" modified="2016-10-03T05:08:44Z" visited="2016-10-03T05:08:44Z">
+    <title>麻枝 准×やなぎなぎ「Last Smile」.m4a</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mp4"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2016-10-03T05:08:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Downloads/clementine_1.3.1-xenial_amd64.deb" added="2016-10-03T05:19:24Z" modified="2016-10-03T05:19:24Z" visited="2016-10-03T05:19:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-10-03T05:19:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kono/Music" added="2016-10-03T05:24:50Z" modified="2016-10-03T05:24:50Z" visited="2016-10-03T05:24:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Clementine" exec="&apos;clementine %u&apos;" modified="2016-10-03T05:24:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

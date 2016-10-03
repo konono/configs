@@ -1,0 +1,23 @@
+[input-def]
+0=*
+
+[input2]
+0=~/
+
+[cmdline]
+0=10
+1=quit
+2=ll
+3=;s
+4=1
+5=help
+6=Quit
+7=
+
+[Dir Hist New Right Panel]
+0=/home/kono
+
+[Dir Hist New Left Panel]
+0=/home/kono/Music
+1=/home/kono/Downloads
+2=/home/kono

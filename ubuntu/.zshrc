@@ -86,12 +86,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vimgo='gvim -u ~/.vimrc.go'
 alias docker='sudo docker'
 #sudo conky > /dev/null 2>&1
 alias gob='go build -gcflags "-N -l"'
 alias lxc='sudo lxc'
-alias juju='juju-1.25'
+
 
 # lessで見た時にエスケープシーケンスなどを綺麗に取る
 alias less='less -r -SX'
@@ -104,13 +103,35 @@ alias sudo='sudo '
 alias gip="egrep -o '[0-9]+(\.[0-9]+){3}'"
 
 
-source ~/.profile
-source ~/.zsh_env
 xmodmap ~/.Xmodmap 2> /dev/null
 #xkbcomp -I $HOME/.xkb ~/.xkb/keymap/mykbd $DISPLAY 2> /dev/null
 
 zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
+
+source ~/.tmuxinator/tmuxinator.zsh
+source ~/.profile
+source ~/.zsh_env
+
+function peco-ssh () {
+  local selected_host=$(awk '
+  tolower($1)=="host" {
+    for (i=2; i<=NF; i++) {
+      if ($i !~ "[*?]") {
+        print $i
+      }
+    }
+  }
+  ' ~/.ssh/config | sort | peco --query "$LBUFFER")
+  if [ -n "$selected_host" ]; then
+    BUFFER="ssh ${selected_host}"
+    zle accept-line
+  fi
+  zle clear-screen
+}
+zle -N peco-ssh
+bindkey '^t' peco-ssh
+alias ssh-config-update="cat ~/.ssh/conf.d/common-config ~/.ssh/conf.d/*.conf > ~/.ssh/config"
 
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
