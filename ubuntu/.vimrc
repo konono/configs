@@ -608,9 +608,8 @@ inoremap [[ []<LEFT>
 inoremap '' ''<LEFT>
 inoremap `` ``<LEFT>
 inoremap << <><LEFT>
-
 inoremap <C-l> <Right>
-
+inoremap <silent> jj <ESC>.
 nmap qq :q!<CR>
 "nmap T :CleverHSplit <CR>
 nmap T :new <CR>
