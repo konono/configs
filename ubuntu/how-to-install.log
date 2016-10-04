@@ -186,13 +186,13 @@ alias ssh-config-update="cat ~/.ssh/conf.d/common-config ~/.ssh/conf.d/*.conf > 
 
 
 #ssh configration
-mdkir .ssh
+mkdir .ssh
 chmod 700 .ssh
 mkdir ~/.ssh/keys
 mkdir ~/.ssh/conf.d
 chmod 700 ~/.ssh/keys ~/.ssh/conf.d
 
-cat .ssh/config 
+cat <<EOF> ~/.ssh/conf.d/common-config
 Host *
 	IdentitiesOnly yes
 	ServerAliveInterval 120
@@ -200,8 +200,9 @@ Host *
 	ForwardAgent yes
 	IdentityFile ~/.ssh/keys/id_rsa
 	TCPKeepAlive yes
+EOF
 
-cat conf.d/template.sh 
+cat <<EOFF> ~/.ssh/conf.d/template.sh 
 #!/bin/bash
 cat <<EOF> $1.conf
 Host $1
@@ -210,13 +211,4 @@ Host $1
     Port 22
     IdentityFile ~/.ssh/keys/$1
     ServerAliveInterval 60
-EOF
-
-cat conf.d/lab-mgmt01.conf 
-Host lab-mgmt
-    HostName xxx.xxx.xxx.xxx
-    User ubuntu
-    Port 22
-    IdentityFile ~/.ssh/keys/lab-mgmt01
-    ServerAliveInterval 60
-
+EOFF
