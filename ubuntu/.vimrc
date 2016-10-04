@@ -610,7 +610,9 @@ inoremap `` ``<LEFT>
 inoremap << <><LEFT>
 inoremap <C-l> <Right>
 inoremap <silent> jj <ESC>.
-nmap qq :q!<CR>
+inoremap <silent> <C-@> <ESC>
+vnoremap <silent> <C-@> <ESC>
+
 "nmap T :CleverHSplit <CR>
 nmap T :new <CR>
 "nmap t :CleverVSplit <CR>
