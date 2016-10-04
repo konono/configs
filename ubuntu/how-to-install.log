@@ -146,6 +146,10 @@ sudo apt-get install xsel
 
 #tmux rapper
 sudo apt install tmuxinator
+mkdir ~/.tmuxinator
+wget https://raw.github.com/aziz/tmuxinator/master/completion/tmuxinator.zsh
+mv tmuxinator.zsh ~/.tmuxinator
+echo 'source ~/.tmuxinator/tmuxinator.zsh' >> ~/.zshrc
 
 vim ~/.zsh_env
 export EDITOR='vim'
