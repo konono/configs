@@ -212,3 +212,32 @@ Host $1
     IdentityFile ~/.ssh/keys/$1
     ServerAliveInterval 60
 EOFF
+
+### Install System Backup ###
+sudo add-apt-repository ppa:nemh/systemback
+sudo apt-get update
+sudo apt-get install systemback
+
+### Install Dropbox ###
+wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb
+sudo gdebi dropbox_2015.10.28_amd64.deb
+
+### Install Nozbe ###
+download https://nozbe.com/jp/
+gunzip nozbe.zip
+sh ~/Downloads/NozbeLinux/downloader.sh
+
+### Install SpaceFM ###
+sudo add-apt-repository ppa:mati75/spacefm
+sudo apt-get update
+sudo apt-get install spacefm
+
+### Install asunder ###
+sudo add-apt-repository ppa:webupd8team/unstable
+sudo apt-get update
+sudo apt-get install asunder
+
+edit HTTP proxy
+freedbtest.dyndns.org:80
+
+
