@@ -241,3 +241,8 @@ edit HTTP proxy
 freedbtest.dyndns.org:80
 
 
+### Install rkt ###
+wget https://raw.githubusercontent.com/coreos/rkt/master/scripts/install-rkt.sh
+chmod +x install-rkt.sh
+./Install-rkt.sh
+rkt run --interactive docker://ubuntu --insecure-options=image

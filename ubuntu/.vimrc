@@ -7,6 +7,8 @@ filetype plugin indent on
 
 "leaderキー変更
 :let mapleader="@"
+:set expandtab
+
 
 "起動時に開いていた場所にカーソルが戻る設定
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
@@ -239,6 +241,9 @@ NeoBundle "ctrlpvim/ctrlp.vim"
 
 "ctrlP Filer
 NeoBundle "mattn/ctrlp-filer"
+
+"markdown plugin
+NeoBundle "kurocode25/mdforvim"
 
 let g:table_mode_corner_corner="+"
 let g:table_mode_header_fillchar="="
