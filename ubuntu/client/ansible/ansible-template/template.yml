@@ -1,0 +1,12 @@
+- hosts:
+    - host01
+    - host02
+  vars:
+    var01: host01
+    var02: 6001-6002
+    var03: tcp
+  vars_files:
+    - template-vars.yml
+  roles:
+    - role01
+    - role02

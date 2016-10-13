@@ -1,0 +1,14 @@
+swift_acc1_ip: 10.1.13.4
+swift_acc2_ip: 10.1.13.5
+swift_acc3_ip: 10.1.13.6
+swift_con1_ip: 10.1.13.4
+swift_con2_ip: 10.1.13.5
+swift_con3_ip: 10.1.13.6
+swift_obj1_ip: 10.1.13.4
+swift_obj2_ip: 10.1.13.5
+swift_obj3_ip: 10.1.13.6
+auth_uri: auth_uri = http://10.1.11.15:5000/v2.0
+identity_uri: identity_uri = http://10.1.11.15:35357
+admin_password: admin_password = gHAAerFK4nu2RhGggwAjPPXmG
+memcache_servers: memcache_servers = 10.1.13.4:11211,10.1.13.5:11211,10.1.13.6:11211
+

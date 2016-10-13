@@ -1,0 +1,56 @@
+---
+- name: Check Ansible User
+  shell: ls -l /home
+  changed_when: no
+  always_run: yes
+  register: res
+
+- block:
+  - group: name=ansible state=present
+    become: yes
+    become_method: sudo
+
+  - name: Create User
+    user: 
+     name=ansible
+     uid=700
+     groups=ansible,sudo
+     password=$6$Bgk0TqcV33qDM$MZMyhEOpgfMNc3ZgWURmDW7.vJ3qOyTD1mMNw4VOAx3o5JSM2C8qszRpg2F4qWB5N7xxBjjhIZAmdd7GHJ7x20
+    become: yes
+    become_method: sudo
+    when: res.stdout.find('ansible') == -1
+  
+  - name: Aptitude Install
+    shell: apt-get -y install aptitude
+    become: yes
+    become_method: sudo
+
+  - name: Apt Update
+    apt:
+      update_cache=yes
+      upgrade=yes
+    become: yes
+    become_method: sudo
+
+  when: ansible_distribution == "Ubuntu"
+
+- block:
+  - group: name=ansible state=present
+    become: yes
+    become_method: sudo
+
+  - name: Create User
+    user: 
+     name=ansible
+     uid=700
+     groups=ansible,wheel
+     password=$6$Bgk0TqcV33qDM$MZMyhEOpgfMNc3ZgWURmDW7.vJ3qOyTD1mMNw4VOAx3o5JSM2C8qszRpg2F4qWB5N7xxBjjhIZAmdd7GHJ7x20
+    become: yes
+    become_method: sudo
+    when: res.stdout.find('ansible') == -1
+
+#  - name: Yum Update
+#    yum: name=* state=latest
+#
+  when: ansible_distribution == "RedHat"
+

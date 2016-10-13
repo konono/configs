@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - authorized_key

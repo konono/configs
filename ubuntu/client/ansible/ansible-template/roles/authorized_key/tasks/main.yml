@@ -1,0 +1,14 @@
+---
+- name: Create .ssh directory
+  file: path=/home/isucon/.ssh state=directory mode=0600
+  become: yes
+  become_method: sudo
+
+
+- name: Ensure SSH authorized key
+  authorized_key:
+    user=isucon
+    key="{{ lookup('file', 'files/key/id_rsa.pub') }}"
+    state=present
+  become: yes
+  become_method: sudo

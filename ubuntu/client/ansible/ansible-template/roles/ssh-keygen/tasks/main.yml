@@ -1,0 +1,8 @@
+- name: Check SSH key '{{ inventory_dir }}/files/id_rsa'
+  file: path="{{ inventory_dir }}/files/key/id_rsa" state=file
+  register: ssh_pubkey_exists
+  ignore_errors: true
+
+- name: Generates SSH key (RSA 2048bit) as '{{ inventory_dir }}/files/key/id_rsa'
+  shell: ssh-keygen -q -t rsa -b 2048 -N "" -C "" -f "{{ inventory_dir }}/files/key/id_rsa"
+  when: ssh_pubkey_exists.state == 'absent'

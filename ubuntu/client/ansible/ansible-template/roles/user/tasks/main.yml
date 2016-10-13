@@ -1,0 +1,12 @@
+---
+- block:
+  - group: name=swift gid=160 state=present
+
+  - name: Create User
+    user: 
+     name=swift
+     uid=160
+     group=swift
+
+  become: yes
+  become_method: sudo

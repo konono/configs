@@ -1,0 +1,14 @@
+[isucon]
+175.111.74.173
+175.111.74.174
+175.111.74.175
+
+# everything in the all
+[all:children]
+isucon
+
+[all:vars]
+ansible_ssh_port=22
+ansible_ssh_user=isucon
+ansible_ssh_pass=isucon
+ansible_sudo_pass=isucon

@@ -1,0 +1,10 @@
+---
+- block:
+  - name: Local repository configuration
+    template: src=local.repo.j2 dest=/etc/yum.repos.d/local.repo
+
+  - name: Yum Update
+    yum: name=* state=latest
+
+  become: yes
+  become_method: sudo

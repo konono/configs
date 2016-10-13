@@ -1,0 +1,15 @@
+ansible -i init -m setup swift01 
+
+cat init
+[swift01]
+203.191.241.18
+
+# everything in the all
+[all:children]
+swift01
+
+[all:vars]
+ansible_ssh_port=22
+ansible_ssh_user=stack
+ansible_ssh_pass=stack
+ansible_sudo_pass=stack
