@@ -4,6 +4,6 @@ Host $1
     HostName $2
     User $3
     Port 22
-    IdentityFile ~/.ssh/keys/$1.key
+    IdentityFile ~/.ssh/keys/$1
     ServerAliveInterval 60
 EOF
