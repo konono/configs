@@ -1,3 +1,0 @@
-- hosts: swift-pro01
-  roles:
-    - debug
