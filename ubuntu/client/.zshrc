@@ -91,7 +91,6 @@ alias docker='sudo docker'
 alias gob='go build -gcflags "-N -l"'
 alias lxc='sudo lxc'
 
-
 # lessで見た時にエスケープシーケンスなどを綺麗に取る
 alias less='less -r -SX'
 
@@ -100,7 +99,7 @@ alias rf='mv -i -t /tmp/'
 
 # magic
 alias sudo='sudo '
-alias gip="egrep -o '[0-9]+(\.[0-9]+){3}'"
+alias gip="egrep -o '([1-2]?[0-9]{0,2}\.){3,3}[1-2]?[0-9]{0,2}'"
 
 
 xmodmap ~/.Xmodmap 2> /dev/null
