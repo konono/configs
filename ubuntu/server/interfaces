@@ -1,0 +1,73 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+
+# This machine have following interfaces
+# enp3s0f0 -> 1Gb 0port
+# That segment mean PXE
+# vlan 10
+
+# enp3s0f1 -> 1Gb 1port
+# That segment mean MGMT
+# vlan 20
+
+# enp4s0f0 -> 1Gb 2port
+# enp4s0f1 -> 1Gb 3port
+# It is bonding interface(bond0)
+# This segment mean trunk
+
+# ens2f0 -> 10Gb 0port
+# ens2f1 -> 10Gb 1port
+# It is bonding interface(bond1)
+# This segment mean trunk
+
+auto lo
+iface lo inet loopback
+
+#auto enp3s0f0
+allow-pxebr0 enp3s0f0
+iface enp3s0f0 inet manual
+  ovs_bridge pxebr0
+  ovs_type OVSPort
+
+auto enp3s0f1
+iface enp3s0f1 inet static
+  address 10.0.20.1
+  netmask 255.255.254.0
+  gateway 10.0.21.254
+  dns-server 8.8.8.8
+
+auto enp4s0f0
+iface enp4s0f0 inet manual
+bond-master bond0
+bond-primary enp4s0f0
+
+auto enp4s0f1
+iface enp4s0f1 inet manual
+bond-master bond0
+
+#auto bond0
+#iface bond0 inet manual
+#bond-mode active-backup
+#bond-miimon 100
+#bond-slaves none
+
+allow-svbr0 bond0
+iface bond0 inet manual
+bond-mode active-backup
+bond-miimon 100
+bond-slaves none
+  ovs_bridge svbr0
+  ovs_type OVSPort
+
+auto pxebr0
+allow-ovs pxebr0
+iface pxebr0 inet static
+  ovs_type OVSBridge
+  ovs_ports enp3s0f0
+  address 10.0.10.1
+  netmask 255.255.254.0
+
+auto svbr0
+allow-ovs svbr0
+iface svbr0 inet manual
+  ovs_type OVSBridge
+  ovs_ports bond0
